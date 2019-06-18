@@ -15,3 +15,4 @@ Account and billing APIs manage your user profile, credentials, invoices and so 
 Instances APIs manage your servers, volumes, IP addresses, snapshots and so on.
 
 * [list_instances.py](instances/list_instances.py): learn how to list instances and consume API pagination.
+* [marketplace.go](instances/marketplace.go): query the marketplace API to retrieve image identifiers.
