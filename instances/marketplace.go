@@ -81,7 +81,7 @@ func ListImages(arch string, name string) ([]MarketplaceImage, error) {
 	var ret = []MarketplaceImage{}
 
 	baseUrl := "https://api-marketplace.scaleway.com"
-	path := "/images?only_current=true&per_page=5&arch=" + arch
+	path := "/images?only_current=true&arch=" + arch
 
 	nameRegex := regexp.MustCompile(`(?i)` + name)
 
